@@ -1,12 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nav bar</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        section {
+            background-image: url(./img/bc.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1728px;
+            height: 1000px;
+        }
+
+        nav {
+            width: 1728px;
+            /* height: auto; */
+            height: 60px;
+            display: flex;
+        }
+
+        .logo {
+            width: 30%;
+            height: 60px;
+            background-color: rgba(0, 0, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link {
+            width: 50%;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(0, 0, 139, 0);
+            color: #FFFFFF;
+        }
+
+        .link>a {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            color: #FFFFFF;
+        }
+
+        a:hover {
+            background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            transition: 1s;
+            transform: translateY(10px);
+        }
+
+        .btn {
+            width: 20%;
+            height: 60px;
+            background-color: rgba(139, 0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button{
+            background: none;
+            border: none;
+        }
+        button:hover{
+            transform: translateY(15px);
+            transition: 1s;
+        }
+
+        .logo>img {
+            Width: 38.33px;
+            Height: 28.75px;
+        }
+
+        .logo>p {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            /* identical to box height */
+            margin: 5PX;
+            text-align: center;
+            color: #FFFFFF;
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <section>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+                <p>Daunku</p>
+            </div>
+            <div class="link">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="btn">
+                <button><img src="./img/bdg.png" alt=""></button>
+            </div>
+        </nav>
+    </section>
 </body>
+
 </html>
