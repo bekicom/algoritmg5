@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.s_5{
+    width: 100%;
+    height: 1000vh;
+    background: linear-gradient(119.6deg, #DCDCDC 1.54%, #4F4F4F 100.91%);
+}
+.s_5_a{
+    width: 80%;
+    height: 1000vh;
+    background-color: #fff;
+    margin-left: 10%;
+}
+.s_5_l_t_h1{
+    font-style: normal;
+font-size: 30px;
+line-height: 30px;
+font-weight: 700;
+
+/* font */
+
+color: #081323;
+margin-left: 100px;
+padding-top: 100px;
+}
+.s_5_l_t_p{
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.s_5_l_b_quyosh{
+    margin-left: 100px;
+    display: flex;
+    margin-top: 50px;
+}
+.s_5_l_b_quyosh_l{
+    width: 40px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.s_5_l_b_tomchi{
+    margin-left: 100px;
+    display: flex;
+}
+.s_5_l_b_tomchi_l{
+    width: 40px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+
+.s_5_l_b_gul{
+    margin-left: 100px;
+    display: flex;
+}
+.s_5_l_b_gul_l{
+    width: 40px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+
+
+
+.s_5_l_b_termometr{
+    margin-left: 100px;
+    display: flex;
+}
+.s_5_l_b_termometr_l{
+    width: 40px;
+    height: 90px;
+    margin-top: 20px;
+}
+.s_5_t{
+    display: flex;
+}
+.hjkl{
+    width: 40%;
+    height: 40%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
