@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.sec3{
+    width: 1728px;
+    height: auto;
+    background-color: white;
+
+}
+.sec3p{
+    width: 751px;
+height: 75px;
+left: 377px;
+top: 0px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+
+/* font */
+
+color: #081323;
+}
+.sec3p2{
+    width: 649px;
+    height: 28px;
+    left: 413px;
+    top: 102px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+    margin-left: 50px;
+
+}
+.sec3yoz{
+padding-top: 9px;
+padding-left: 504px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+.left{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.sec3img{
+    width: 717px;
+height: 995px;
+left: 767px;
+top: 212px;
+
+background: url(.jpg);
+border-radius: 50px;
+}
+.rasmsec3{
+    display: flex;
+    padding-top: 96px;
+    padding-left: 126px;
+    padding-right: 126px;
+    gap: 32px;
+}
+.sec3img4{
+    width: 734px;
+height: 404px;
+left: 1px;
+top: 803px;
+
+background: url(high-angle-desk-arrangement-with-plants.jpg);
+border-radius: 50px;
+}

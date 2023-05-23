@@ -1,0 +1,104 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: none;
+}
+.section1{
+    display: flex;
+    
+}
+.section1{
+position: absolute;
+width: 836.23px;
+height: 501.74px;
+left: 0px;
+top: 0px;
+
+background: url(./img/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.png);
+}
+nav{
+    width: 25px;
+height: 10px;
+
+
+font-weight: 600;
+font-size: 8.54027px;
+line-height: 10px;
+/* identical to box height */
+
+/* text-align: center; */
+
+/* gradient2 */
+
+/* background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+
+/* flex: none;
+order: 0;
+flex-grow: 0;
+
+}  */ 
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2350px;
+height: 1410px;
+left: 0px;
+top: 0px;
+background-color: white;
+
+}
+
+
+.div{
+
+width: 1128px;
+height: 192px;
+left: 0px;
+top: 0px;
+
+
+font-weight: 700;
+font-size: 82px;
+line-height: 96px;
+text-align: center;
+
+color: #ffffff;
+}
+.viv{
+   
+width: 583px;
+height: 72px;
+left: 272px;
+top: 216px;
+
+
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+text-align: center;
+
+padding-left: 200px;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
