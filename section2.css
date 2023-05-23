@@ -57,7 +57,9 @@ background-color: gray;
 
 }
 
-
+.sec01{
+    background-color: white;
+}
 .div{
 
 width: 1128px;
@@ -71,7 +73,7 @@ font-size: 82px;
 line-height: 96px;
 text-align: center;
 
-color: #ffffff;
+color: #000000;
 }
 .viv{
    
@@ -90,7 +92,7 @@ text-align: center;
 
 padding-left: 200px;
 
-color: #FFFFFF;
+color: #000000;
 
 }
 

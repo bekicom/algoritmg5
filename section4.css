@@ -6,12 +6,12 @@
 }
 .s_5{
     width: 100%;
-    height: 1000vh;
-    background: linear-gradient(119.6deg, #DCDCDC 1.54%, #4F4F4F 100.91%);
+    height: auto;
+    background: white;
 }
 .s_5_a{
     width: 80%;
-    height: 1000vh;
+    height: auto;
     background-color: #fff;
     margin-left: 10%;
 }
